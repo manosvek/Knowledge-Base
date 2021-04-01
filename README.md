@@ -8,10 +8,11 @@ This project implements a semantic knowledge base regarding Means of Transportat
 
 ### 1. Creating ontology
  
-  Ontology for knowledge base was created in Protege. Class, Object property and Data property hierarchies can be seen below.
-  
-  
-
+  Ontology for knowledge base was created in Protege. Class, Object property and Data properties hierarchies can be seen below.
+  </br>
+  ![Classes](https://github.com/manosvek/Knowledge-Base/raw/main/images/class_hierarchy.png "Classes")
+  ![Object properties](https://github.com/manosvek/Knowledge-Base/raw/main/images/data_hierarchy.png "Object properties")
+  ![Data properties](https://github.com/manosvek/Knowledge-Base/raw/main/images/object_hierarchy.png "Data properties")
 ### 2. Trasnforming data to RDF triples
 
   We transformed ttl data to RDF triples in Turtle format using Apache Jena Framework.
